@@ -324,8 +324,10 @@ mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; margin: 8p
   var allPages = [];
   var tocEntries = [];
   var isMobile = window.innerWidth <= 800;
-  var isFlipping = false;  // debounce flag
-  var typesetPages = {};   // track which pages have been typeset
+  var isFlipping = false;
+  var lastFlipTime = 0;
+  var FLIP_COOLDOWN = 400; // ms - ignore clicks within this window
+  var typesetPages = {};
 
   // --- Build pages ---
   function buildPages() {
@@ -395,15 +397,16 @@ mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; margin: 8p
     return div;
   }
 
-  // --- Debounced flip ---
-  function safeFlipNext() {
-    if (isFlipping || !pageFlip) return;
-    pageFlip.flipNext();
+  // --- Throttled flip ---
+  function canFlip() {
+    if (!pageFlip || isFlipping) return false;
+    var now = Date.now();
+    if (now - lastFlipTime < FLIP_COOLDOWN) return false;
+    lastFlipTime = now;
+    return true;
   }
-  function safeFlipPrev() {
-    if (isFlipping || !pageFlip) return;
-    pageFlip.flipPrev();
-  }
+  function safeFlipNext() { if (canFlip()) pageFlip.flipNext(); }
+  function safeFlipPrev() { if (canFlip()) pageFlip.flipPrev(); }
 
   // --- Init ---
   function init() {
@@ -452,7 +455,7 @@ mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; margin: 8p
     }
     tocUl.addEventListener('click', function(ev) {
       var li = ev.target.closest('[data-p]');
-      if (li && pageFlip && !isFlipping) {
+      if (li && canFlip()) {
         pageFlip.flip(parseInt(li.getAttribute('data-p')));
         closeSb();
       }
