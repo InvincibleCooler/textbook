@@ -84,10 +84,15 @@ body {
   background: var(--page-bg);
   max-width: 800px;
   width: 100%;
-  padding: 32px 32px 80px;
+  padding: 32px;
   font-size: 15px;
   line-height: 1.75;
   color: var(--text-color);
+}
+.page-content::after {
+  content: '';
+  display: block;
+  height: 80px;
 }
 
 .page-content.cover {
