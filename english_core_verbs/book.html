@@ -88,7 +88,7 @@ body {
 .book-area { flex: 1; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative; }
 
 .page {
-  background: var(--page-bg); padding: 28px 32px; overflow: hidden;
+  background: var(--page-bg); padding: 28px 32px; overflow: auto; -webkit-overflow-scrolling: touch;
   font-size: 14.5px; line-height: 1.72; color: var(--text-color); position: relative;
 }
 
@@ -251,7 +251,7 @@ body {
     } else {
       var side = (idx % 2 === 0) ? 'l' : 'r';
       div.innerHTML =
-        '<div style="width:100%;height:calc(100% - 20px);overflow:hidden;">' + data.html + '</div>' +
+        '<div style="width:100%;height:calc(100% - 20px);overflow-y:auto;-webkit-overflow-scrolling:touch;">' + data.html + '</div>' +
         '<div class="pg-num ' + side + '">' + idx + '</div>';
     }
     return div;
