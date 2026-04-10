@@ -1,33 +1,37 @@
 # bring
 
-> 화자 쪽으로 '가져오다' — take의 반대 방향, come + carry의 감각
+> **핵심 감각: 가져오다** — 화자 쪽으로 끌고 오는 것. take의 정반대.
 
-## 감각 지도
+## 핵심 감각
 
-### 1. 가져오다 / 데려오다 ★★★★★
-물건이나 사람을 화자 쪽으로 이동시키는 감각. take와 방향이 반대.
+bring의 모든 뜻은 **"가져오다"** 하나로 통한다. take가 "내게서 멀어지게 취하다"면 bring은 "나에게 가까이 끌고 오다". 물건이든, 결과든, 화제든 — 뭘 가져오느냐에 따라 해석이 달라질 뿐이다.
+
+## 감각 갈래
+
+### 물건·사람을 가져오면 → 데려오다 / 가져오다 ★★★★★
+가장 기본. 화자 쪽으로 이동시키는 것. take와 방향이 반대.
 - Bring your friends to the party.
 - Can you bring me a glass of water?
 
-### 2. 초래하다 / 가져다주다 ★★★★
-결과나 상태를 화자 쪽으로 끌고 오는 감각.
+### 결과·상태를 가져오면 → 초래하다 / 가져다주다 ★★★★
+결과나 변화를 이쪽으로 끌고 오는 것.
 - The new policy brought many changes.
 - Music brings me joy.
 
-### 3. 화제로 꺼내다 ★★★
-대화의 장으로 끌고 오는 감각.
+### 화제를 가져오면 → 꺼내다 / 언급하다 ★★★
+대화의 장으로 주제를 끌고 오는 것.
 - She brought up an interesting point.
 - Don't bring that topic up again.
 
 ## 필수 패턴
 | 패턴 | 감각 | 예문 |
 |------|------|------|
-| bring up | 화제를 꺼내다 / 키우다 | He was brought up in a small town. |
-| bring out | 꺼내다 / 드러나게 하다 | The seasoning brings out the flavor. |
-| bring back | 돌려주다 / 되살리다 | This song brings back memories. |
-| bring about | 야기하다 | What brought about the change? |
-| bring down | 끌어내리다 | The scandal brought down the CEO. |
-| bring together | 모으다 | The event brought people together. |
+| bring up | 위로 가져옴 (화제/양육) | He was brought up in a small town. |
+| bring out | 밖으로 가져옴 (드러냄) | The seasoning brings out the flavor. |
+| bring back | 되돌려 가져옴 (되살림) | This song brings back memories. |
+| bring about | 결과를 가져옴 (야기) | What brought about the change? |
+| bring down | 아래로 가져옴 (끌어내림) | The scandal brought down the CEO. |
+| bring together | 함께 가져옴 (모음) | The event brought people together. |
 
 ## bring vs take
 - **bring**: 화자/청자 쪽으로 → "이리로 가져와"

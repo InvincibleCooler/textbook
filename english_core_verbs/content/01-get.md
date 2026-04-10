@@ -1,31 +1,37 @@
 # get
 
-> 어떤 상태로 '되다', 무언가를 '얻게 되다' — 변화와 획득의 동사
+> **핵심 감각: 변화** — A가 아닌 상태에서 A인 상태로 넘어가는 순간
 
-## 감각 지도
+## 핵심 감각
 
-### 1. 상태 변화 (되다) ★★★★★
-뭔가가 달라지는 순간. 영어에서 "~해지다"는 거의 다 get.
+get의 모든 뜻은 **"변화"** 하나로 통한다. 무언가가 없던 데서 생기거나, 한 상태에서 다른 상태로 넘어가는 것. 뭐가 변하느냐에 따라 한국어 해석만 달라질 뿐이다.
+
+## 감각 갈래
+
+### 상태가 변하면 → ~해지다 ★★★★★
+가장 직관적인 변화. 밝음→어두움, 기운참→피곤함.
 - It's getting dark outside.
 - I got tired after the meeting.
+- She got angry at me.
 
-### 2. 얻다 / 받다 ★★★★★
-손에 들어오는 감각. buy, receive, earn 전부 get으로 대체 가능.
+### 소유가 변하면 → 얻다 / 받다 ★★★★★
+없던 것이 내 손에 들어오는 변화. buy, receive, earn 전부 get으로 대체 가능.
 - I got a new phone yesterday.
 - Did you get my message?
+- She got a promotion last month.
 
-### 3. 도착하다 ★★★★
-목적지에 닿는 감각. arrive보다 훨씬 자주 씀.
+### 위치가 변하면 → 도착하다 ★★★★
+여기가 아닌 곳에서 여기로, 또는 여기서 거기로. arrive보다 훨씬 자주 씀.
 - What time did you get home?
 - How do I get to the station?
 
-### 4. 이해하다 ★★★
-머릿속에 들어오는 감각. understand보다 캐주얼.
+### 인식이 변하면 → 이해하다 ★★★
+모르는 상태에서 아는 상태로. understand보다 캐주얼.
 - I don't get it. What do you mean?
 - Oh, I get it now!
 
-### 5. 시키다 / 하게 만들다 ★★★
-누군가를 움직이게 하는 감각.
+### 남의 상태를 변하게 하면 → 시키다 ★★★
+변화의 방향을 남에게 향하게 하는 것.
 - I got him to fix the computer.
 - Can you get the kids to be quiet?
 
@@ -33,13 +39,13 @@
 | 패턴 | 감각 | 예문 |
 |------|------|------|
 | get + 형용사 | 상태 변화 | She got angry at me. |
-| get + to + 장소 | 도착 | How do I get to the airport? |
-| get + 사람 + to do | 시키다 | I got her to help me. |
-| get rid of | 제거 | I need to get rid of this old sofa. |
-| get along with | 잘 지내다 | Do you get along with your neighbors? |
-| get over | 극복하다 | She got over the breakup quickly. |
-| get up | 일어나다 | I get up at 7 every morning. |
-| get out of | 빠져나오다 | I want to get out of this meeting. |
+| get + to + 장소 | 위치 변화 | How do I get to the airport? |
+| get + 사람 + to do | 남의 상태 변화 | I got her to help me. |
+| get rid of | 존재→없음 변화 | I need to get rid of this old sofa. |
+| get along with | 관계 변화 | Do you get along with your neighbors? |
+| get over | 상태 변화 (극복) | She got over the breakup quickly. |
+| get up | 위치 변화 (눕→섬) | I get up at 7 every morning. |
+| get out of | 위치 변화 (안→밖) | I want to get out of this meeting. |
 
 ## 함정
 - (X) I got cold. → (O) I got a cold. (감기에 걸렸다)
